@@ -1,11 +1,10 @@
 .content {
   margin-left: 5rem;
   text-align: center;
-  text-size-adjust: 18px;
+  font-size: 18px;
 }
-
-.defaultSelected {
-  background: blue;
+.fa-2x {
+  vertical-align: middle;
 }
 
 .App-logo {
