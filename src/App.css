@@ -1,6 +1,11 @@
 .content {
   margin-left: 5rem;
   text-align: center;
+  text-size-adjust: 18px;
+}
+
+.defaultSelected {
+  background: blue;
 }
 
 .App-logo {

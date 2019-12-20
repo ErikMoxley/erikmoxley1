@@ -30,6 +30,15 @@ function App() {
                       style={{ fontSize: "1.75em" }}
                     />
                   </NavIcon>
+                  <NavText>Home</NavText>
+                </NavItem>
+                <NavItem eventKey="about">
+                  <NavIcon>
+                    <i
+                      className="fa fa-fw fa-device"
+                      style={{ fontSize: "1.75em" }}
+                    />
+                  </NavIcon>
                   <NavText>About</NavText>
                 </NavItem>
                 <NavItem eventKey="projects">
@@ -53,7 +62,7 @@ function App() {
               </SideNav.Nav>
             </SideNav>
             <main className="content">
-              <Route exact path="/" component={About} />
+              <Route path="/about" component={About} />
               <Route path="/articles" component={Articles} />
               <Route path="/projects" component={Projects} />
             </main>
