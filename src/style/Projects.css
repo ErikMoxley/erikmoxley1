@@ -1,0 +1,19 @@
+#projects {
+  background-color: #fff;
+  color: #389fc5;
+  margin-top: -10rem;
+  padding-top: 15rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.footer__col--intro {
+  clear: none;
+  border-bottom: 0;
+  margin-bottom: 0;
+  min-width: auto;
+  padding-bottom: 60px;
+}

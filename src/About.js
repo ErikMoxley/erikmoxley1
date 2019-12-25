@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "reactstrap";
-import "./About.css";
+import "./style/About.css";
 
 function About(props) {
   return (
@@ -40,13 +40,17 @@ function About(props) {
                   href="https://www.linkedin.com/in/erikmoxley/"
                   rel="noopener noreferrer"
                 >
-                  <Button color="primary" href="#about">
+                  <Button
+                    color="primary"
+                    target="_blank"
+                    href="https://www.linkedin.com/in/erikmoxley/"
+                  >
                     View Resume
                   </Button>
                 </a>
                 &nbsp; &nbsp; &nbsp;
                 <a class="cta-btn cta-btn--resume" href="#contact">
-                  <Button color="primary" href="#about">
+                  <Button color="primary" href="#contact">
                     Social Media
                   </Button>
                 </a>

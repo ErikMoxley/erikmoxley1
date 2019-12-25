@@ -4,7 +4,9 @@ import Projects from "./Projects.js";
 import Articles from "./Articles.js";
 import About from "./About.js";
 import Home from "./Home";
-import "./App.css";
+import Contacts from "./Contact";
+import Footer from "./Footer";
+import "./style/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
         <Route exact path="/" component={Home} />
         <About />
         <Projects />
+        <Contacts />
+        <Footer />
         <Route path="/about" component={About} />
         <Route path="/articles" component={Articles} />
       </main>
