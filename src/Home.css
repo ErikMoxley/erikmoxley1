@@ -1,0 +1,53 @@
+.container {
+  max-width: 1140px;
+}
+
+.hero {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 0.4;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+  text-align: left;
+  visibility: visible;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s,
+    transform 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+}
+
+@media screen and (max-width: 75em) {
+  .hero {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 50em) {
+  .hero {
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 0rem;
+  }
+}
+
+.emox {
+  background-image: linear-gradient(135deg, #1f4e5f, #389fc5);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.jumbotron {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0;
+  font-weight: 400;
+  color: #389fc5;
+  padding: 0 5.6rem;
+  margin-bottom: 0 !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}

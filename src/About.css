@@ -1,0 +1,25 @@
+.about-wrapper__image {
+  padding: 0;
+  margin-left: 7rem;
+}
+.about-wrapper__info {
+  padding: 0;
+  margin-right: 2rem;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
+
+#about {
+  background-color: #1f4e5f;
+  background-image: linear-gradient(135deg, #1f4e5f, #389fc5);
+  color: #fff;
+  height: 100%;
+  border-top: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  padding-bottom: 10%;
+}
