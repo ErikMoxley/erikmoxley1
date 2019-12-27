@@ -1,3 +1,66 @@
-.font-small {
-  background-color: gray;
+.footer-bot {
+  background-color: #1b1b1b;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #9e9e9e;
+  font-size: small;
+  min-height: 50vh;
+}
+
+.footer-bot a:link {
+  color: #9e9e9e;
+}
+.footer-bot a:visited {
+  color: #9e9e9e;
+}
+.footer-bot a:hover {
+  color: #9e9e9e;
+}
+.footer-bot a:active {
+  color: #9e9e9e;
+}
+
+.footer-brand {
+  color: #ffffff;
+}
+
+.title {
+  color: #ffffff;
+}
+
+.container-fluid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 100px !important;
+}
+
+.footer-content1 {
+  padding-left: 35px !important;
+}
+
+.footer-quote {
+  max-width: 20% !important;
+  padding-right: 45px !important;
+  padding-left: 30px !important;
+}
+
+@media screen and (max-width: 75em) {
+  .footer-quote {
+    max-width: 100% !important;
+    padding-right: 20px !important;
+  }
+  .container-fluid {
+    padding-left: 0px !important;
+  }
+  .footer-social {
+    padding-left: 35px !important;
+  }
+}
+
+.made-with {
+  padding-left: 0px !important;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
