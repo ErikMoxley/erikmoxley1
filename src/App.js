@@ -8,9 +8,6 @@ import Contacts from "./Contact";
 import Footer from "./Footer";
 import "./style/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-library.add(faFacebookF);
 
 function App() {
   return (
