@@ -34,26 +34,17 @@ function About(props) {
                 fuga numquam voluptate architecto itaque molestiae.
               </p>
               <span class="d-flex mt-3">
-                <a
+                <Button
+                  color="primary"
                   target="_blank"
-                  class="cta-btn cta-btn--resume"
                   href="https://www.linkedin.com/in/erikmoxley/"
-                  rel="noopener noreferrer"
                 >
-                  <Button
-                    color="primary"
-                    target="_blank"
-                    href="https://www.linkedin.com/in/erikmoxley/"
-                  >
-                    View Resume
-                  </Button>
-                </a>
+                  View Resume
+                </Button>
                 &nbsp; &nbsp; &nbsp;
-                <a class="cta-btn cta-btn--resume" href="#contact">
-                  <Button color="primary" href="#contact">
-                    Social Media
-                  </Button>
-                </a>
+                <Button color="primary" href="#contact">
+                  Social Media
+                </Button>
               </span>
             </div>
           </div>

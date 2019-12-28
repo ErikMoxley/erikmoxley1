@@ -8,7 +8,7 @@ const Home = props => {
       <Jumbotron className="jumbotron" fluid>
         <Container className="container" fluid>
           <h1 className="hero">
-            Hello, my name is <span className="emox">Erik Moxley,</span>
+            Hello, my name is <span className="eMox">Erik Moxley,</span>
           </h1>
           <h1 className="hero">An Inspiring Developer.</h1>
           <p className="lead">

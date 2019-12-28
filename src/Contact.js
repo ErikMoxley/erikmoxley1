@@ -3,7 +3,7 @@ import "./style/Contact.css";
 
 function Contact(props) {
   return (
-    <section id="section-contact">
+    <section id="contact">
       <div class="container">
         <h3 class="contact-title">Contact</h3>
         <div class="row about-wrapper">
