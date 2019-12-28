@@ -1,0 +1,15 @@
+#section-contact {
+  background-image: linear-gradient(135deg, #1f4e5f, #389fc5);
+  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+  padding: 6rem 0 10rem;
+  margin-top: 3rem;
+  margin-bottom: -24px;
+  color: #fff;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 0rem;
+}
