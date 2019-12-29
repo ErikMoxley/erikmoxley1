@@ -64,3 +64,16 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.up-arrow {
+  cursor: pointer;
+}
+.text-home {
+  cursor: pointer;
+}
+.text-about {
+  cursor: pointer;
+}
+.text-projects {
+  cursor: pointer;
+}

@@ -43,8 +43,9 @@
 .eMox {
   background-image: linear-gradient(135deg, #1f4e5f, #389fc5);
   background-clip: text;
-  -webkit-background-clip: text;
+  -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
+  padding: 1rem;
 }
 .jumbotron {
   min-height: 100vh;

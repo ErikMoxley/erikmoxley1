@@ -1,14 +1,28 @@
 .about-wrapper__image {
   padding: 0;
-  margin-left: 7rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .about-wrapper__image {
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+    padding-left: 7rem;
+  }
+  .col-md-6 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .about-wrapper__image {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 2rem;
+  }
+}
+
 .about-wrapper__info {
   padding: 0;
   margin-right: 2rem;

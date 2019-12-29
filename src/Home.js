@@ -1,8 +1,10 @@
 import React from "react";
 import { Jumbotron, Container, Button } from "reactstrap";
 import "./style/Home.css";
+import "./dist/Typist.scss";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
+import Typist from "react-typist";
 
 const Home = props => {
   return (
@@ -10,12 +12,25 @@ const Home = props => {
       <Jumbotron className="jumbotron" fluid>
         <Container className="container" fluid>
           <Fade left>
-            <h1 className="hero">
-              Hello, my name is <span className="eMox">Erik Moxley,</span>
-            </h1>
+            <div className="TypistExample">
+              <div className="TypistExample-content">
+                <Typist
+                  className="TypistExample-message"
+                  cursor={{ hideWhenDone: true }}
+                >
+                  * Easy to use backp
+                  <Typist.Delay ms={500} />
+                  sace
+                  <Typist.Backspace count={5} delay={1000} />
+                  <Typist.Delay ms={750} />
+                  space
+                  <Typist.Delay ms={1250} />
+                </Typist>
+              </div>
+            </div>
           </Fade>
           <Fade right>
-            <h1 className="hero">An Inspiring Developer.</h1>
+            <h1 className="hero">An Inspiring </h1>
           </Fade>
           <p className="lead">
             <Fade bottom big>

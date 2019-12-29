@@ -17,6 +17,7 @@
     "framer-motion": "^1.7.0",
     "jquery": "^3.4.1",
     "mdbreact": "^4.24.0",
+    "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
@@ -27,6 +28,7 @@
     "react-scripts": "3.3.0",
     "react-scroll": "^1.7.15",
     "react-tilt": "^0.1.4",
+    "react-typist": "^2.0.5",
     "reactstrap": "^8.2.0",
     "semantic-ui-react": "^0.88.2"
   },

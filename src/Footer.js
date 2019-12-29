@@ -16,11 +16,28 @@ import {
   faDiscord,
   faFacebook
 } from "@fortawesome/free-brands-svg-icons";
+import { faChevronCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
     <MDBFooter color="black" className="footer-bot pt-4 mt-4">
+      <div class="text-center">
+        <Link
+          activeClass="active"
+          to="top"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
+          <FontAwesomeIcon
+            icon={faChevronCircleUp}
+            className="up-arrow"
+            size="2x"
+          />
+        </Link>
+      </div>
       <MDBContainer fluid className="footer-container text-center text-md-left">
         <MDBRow>
           <MDBCol className="footer-quote" md="3">
@@ -37,6 +54,7 @@ const Footer = () => {
             <ul>
               <ul>
                 <Link
+                  className="text-home"
                   activeClass="active"
                   to="top"
                   spy={true}
@@ -44,11 +62,12 @@ const Footer = () => {
                   offset={-70}
                   duration={400}
                 >
-                  <a href="/#">Home</a>
+                  Home
                 </Link>
               </ul>
               <ul>
                 <Link
+                  className="text-about"
                   activeClass="active"
                   to="to-about"
                   spy={true}
@@ -56,11 +75,12 @@ const Footer = () => {
                   offset={-70}
                   duration={400}
                 >
-                  <a href="/#">About</a>
+                  About
                 </Link>
               </ul>
               <ul>
                 <Link
+                  className="text-projects"
                   activeClass="active"
                   to="projects"
                   spy={true}
@@ -68,7 +88,7 @@ const Footer = () => {
                   offset={-70}
                   duration={400}
                 >
-                  <a href="/#">Projects</a>
+                  Projects
                 </Link>
               </ul>
               <ul>Blog (Coming Soon!)</ul>
