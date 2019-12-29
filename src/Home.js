@@ -16,7 +16,7 @@ const Home = props => {
               <div className="TypistExample-content">
                 <Typist
                   className="TypistExample-message"
-                  cursor={{ hideWhenDone: true }}
+                  cursor={{ hideWhenDone: false }}
                 >
                   * Easy to use backp
                   <Typist.Delay ms={500} />
