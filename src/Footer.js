@@ -16,6 +16,7 @@ import {
   faDiscord,
   faFacebook
 } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -35,13 +36,40 @@ const Footer = () => {
             <h5 className="title">Content</h5>
             <ul>
               <ul>
-                <a href="/">Home</a>
+                <Link
+                  activeClass="active"
+                  to="top"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={400}
+                >
+                  <a href="/#">Home</a>
+                </Link>
               </ul>
               <ul>
-                <a href="#about">About</a>
+                <Link
+                  activeClass="active"
+                  to="to-about"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={400}
+                >
+                  <a href="/#">About</a>
+                </Link>
               </ul>
               <ul>
-                <a href="#projects">Projects</a>
+                <Link
+                  activeClass="active"
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={400}
+                >
+                  <a href="/#">Projects</a>
+                </Link>
               </ul>
               <ul>Blog (Coming Soon!)</ul>
             </ul>

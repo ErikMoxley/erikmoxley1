@@ -25,3 +25,9 @@
     padding-right: 8rem;
   }
 }
+
+.col-xl-12 > .react-reveal {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}

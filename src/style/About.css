@@ -19,6 +19,11 @@
   font-size: 4rem;
   margin-bottom: 3rem;
 }
+.container > .react-reveal {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 3rem;
+}
 
 #about {
   background-color: #1f4e5f;
