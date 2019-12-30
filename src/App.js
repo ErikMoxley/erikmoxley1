@@ -17,6 +17,7 @@ function App() {
         <Projects />
         <Contacts />
         <Footer />
+        {/* <Route path="/home" component={Home} /> */}
       </main>
     </BrowserRouter>
   );
