@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { Link } from "react-scroll";
 import er from "./assets/er.jpg";
+import ModalExample from "./components/Modal";
 
 function About(props) {
   return (
@@ -48,12 +49,15 @@ function About(props) {
                 </p>
                 <span class="d-flex mt-3">
                   <Button
-                    color="primary"
+                    color="secondary"
+                    size="small"
                     target="_blank"
                     href="https://www.linkedin.com/in/erikmoxley/"
                   >
-                    View Resume
+                    View LinkedIn
                   </Button>
+                  &nbsp; &nbsp; &nbsp;
+                  <ModalExample />
                   &nbsp; &nbsp; &nbsp;
                   <Link
                     activeClass="active"
@@ -63,7 +67,9 @@ function About(props) {
                     offset={-70}
                     duration={400}
                   >
-                    <Button color="primary">Social Media</Button>
+                    <Button color="secondary" size="small">
+                      Social Media
+                    </Button>
                   </Link>
                 </span>
               </div>

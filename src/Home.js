@@ -1,11 +1,10 @@
 import React from "react";
-import { Jumbotron, Container } from "reactstrap";
+import { Jumbotron, Container, Button } from "reactstrap";
 import "./style/Home.css";
 import "./dist/Typist.scss";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 import Typist from "react-typist";
-import Button from "muicss/lib/react/button";
 
 const Home = props => {
   return (
@@ -49,8 +48,8 @@ const Home = props => {
                 offset={-70}
                 duration={400}
               >
-                <Button color="primary" variant="raised">
-                  button
+                <Button color="secondary" size="md">
+                  Find Out More
                 </Button>
               </Link>
             </Fade>

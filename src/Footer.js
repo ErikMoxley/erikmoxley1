@@ -35,6 +35,7 @@ const Footer = () => {
           <FontAwesomeIcon
             icon={faChevronCircleUp}
             className="up-arrow"
+            color="white"
             size="2x"
           />
         </Link>
