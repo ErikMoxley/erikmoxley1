@@ -12,12 +12,11 @@ function App() {
   return (
     <BrowserRouter>
       <main>
-        <Home />
+        <Route exact path="/" render={Home} />} />
         <About />
         <Projects />
         <Contacts />
         <Footer />
-        <Route exact path="/" render={Home} />} />
         {/* <Route path="/home" component={Home} /> */}
       </main>
     </BrowserRouter>
