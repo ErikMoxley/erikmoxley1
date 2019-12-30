@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Projects from "./Projects.js";
 import About from "./About.js";
 import Home from "./Home";
@@ -17,6 +17,7 @@ function App() {
         <Projects />
         <Contacts />
         <Footer />
+        <Route exact path="/" render={Home} />} />
         {/* <Route path="/home" component={Home} /> */}
       </main>
     </BrowserRouter>
