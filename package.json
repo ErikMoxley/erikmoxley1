@@ -1,6 +1,6 @@
 {
   "name": "erikmoxley",
-  "homepage": "https://github.com/ErikMoxley/erikmoxley",
+  "homepage": "https://github.com/erikmoxley/erikmoxley",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,6 @@
     "@trendmicro/react-sidenav": "^0.4.5",
     "bootstrap": "^4.4.1",
     "framer-motion": "^1.7.0",
-    "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
     "mdbreact": "^4.24.0",
     "muicss": "^0.10.0",
@@ -59,6 +58,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "tachyons": "^4.10.0"
   }
 }
