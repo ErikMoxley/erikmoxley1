@@ -1,4 +1,4 @@
-[build]
-base = "erikmoxley/"
-publish = "erikmoxley/build/"
-command = "npm build"
+ [build] 
+ base = "erikmoxley/" 
+ publish = "build/"
+ command = "npm run build" 
