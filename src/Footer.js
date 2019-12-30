@@ -14,7 +14,8 @@ import {
   faGithub,
   faLinkedin,
   faDiscord,
-  faFacebook
+  faFacebook,
+  faSass
 } from "@fortawesome/free-brands-svg-icons";
 import { faChevronCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
@@ -170,6 +171,7 @@ const Footer = () => {
           Content made possible with:<br></br>
           <FontAwesomeIcon icon={faHtml5} size="6x" />
           <FontAwesomeIcon icon={faCss3} size="6x" />
+          <FontAwesomeIcon icon={faSass} size="6x" />
           <FontAwesomeIcon icon={faJs} size="6x" />
           <FontAwesomeIcon icon={faBootstrap} size="6x" />
           <FontAwesomeIcon icon={faFontAwesome} size="6x" />

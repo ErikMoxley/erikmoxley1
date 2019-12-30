@@ -4,6 +4,7 @@ import "./style/About.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { Link } from "react-scroll";
+import er from "./assets/er.jpg";
 
 function About(props) {
   return (
@@ -19,10 +20,10 @@ function About(props) {
             <div class="col-md-6 col-sm-12">
               <div class="about-wrapper__image">
                 <img
-                  class="img-fluid rounded shadow-lg"
+                  className="er"
                   height="auto"
                   width="300px"
-                  src="https://www.erikmoxley.me/assets/profile.bbefa953ef4744a3efed85090e2aa86d.png"
+                  src={er}
                   alt=""
                 />
               </div>

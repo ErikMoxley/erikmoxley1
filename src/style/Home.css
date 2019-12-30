@@ -17,7 +17,7 @@
 }
 
 .lead {
-  margin-left: 6rem;
+  margin-left: 0rem;
 }
 
 @media screen and (max-width: 75em) {
@@ -29,14 +29,19 @@
   }
 }
 
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 65em) {
   .hero {
-    font-size: 3rem;
-    line-height: 1;
+    font-size: 2rem;
+    line-height: 0;
     margin-top: 0rem;
   }
-  .lead {
-    margin-left: 0rem;
+}
+
+@media screen and (max-width: 35em) {
+  .hero {
+    font-size: 2rem;
+    line-height: 1;
+    margin-top: 0rem;
   }
 }
 

@@ -3,7 +3,7 @@ import "./style/Projects.css";
 import wk from "./assets/wk.png";
 import gh from "./assets/gh.png";
 import Tilt from "react-tilt";
-import ghprofile from "./ghprofile.png";
+import ghprofile from "./assets/ghprofile.png";
 import { Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 

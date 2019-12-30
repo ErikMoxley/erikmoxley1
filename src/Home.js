@@ -1,10 +1,11 @@
 import React from "react";
-import { Jumbotron, Container, Button } from "reactstrap";
+import { Jumbotron, Container } from "reactstrap";
 import "./style/Home.css";
 import "./dist/Typist.scss";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 import Typist from "react-typist";
+import Button from "muicss/lib/react/button";
 
 const Home = props => {
   return (
@@ -12,25 +13,31 @@ const Home = props => {
       <Jumbotron className="jumbotron" fluid>
         <Container className="container" fluid>
           <Fade left>
-            <div className="TypistExample">
-              <div className="TypistExample-content">
-                <Typist
-                  className="TypistExample-message"
-                  cursor={{ hideWhenDone: false }}
-                >
-                  * Easy to use backp
-                  <Typist.Delay ms={500} />
-                  sace
-                  <Typist.Backspace count={5} delay={1000} />
-                  <Typist.Delay ms={750} />
-                  space
-                  <Typist.Delay ms={1250} />
-                </Typist>
-              </div>
+            <div className="Typist">
+              <Typist className="hero" cursor={{ hideWhenDone: true }}>
+                Hello, my name is
+                <Typist.Delay ms={500} />
+                <span className="eMox">
+                  Eric K.
+                  <Typist.Backspace count={4} delay={1000} />
+                  <Typist.Delay ms={750} />k Moxley.
+                </span>
+                <Typist.Delay ms={1250} />
+              </Typist>
             </div>
           </Fade>
           <Fade right>
-            <h1 className="hero">An Inspiring </h1>
+            <div className="Typist">
+              <Typist className="hero" cursor={{ hideWhenDone: true }}>
+                Former Store Manager.
+                <Typist.Delay ms={5000} />
+                <Typist.Backspace count={21} delay={500} />
+                Aspiring Software Engineer..
+                <Typist.Delay ms={500} />
+                <Typist.Backspace count={19} delay={500} />
+                Web Developer.
+              </Typist>
+            </div>
           </Fade>
           <p className="lead">
             <Fade bottom big>
@@ -42,7 +49,9 @@ const Home = props => {
                 offset={-70}
                 duration={400}
               >
-                <Button color="primary">Know More</Button>
+                <Button color="primary" variant="raised">
+                  button
+                </Button>
               </Link>
             </Fade>
           </p>
