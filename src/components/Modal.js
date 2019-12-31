@@ -43,9 +43,13 @@ const ModalExample = props => {
                 <h3>Store Manager</h3>
                 <span>2018-2019</span>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis.
+                  Sales, Profitability, Asset Protection, Training & development
+                  of all team members. Customer/Patient Experience. Compliance
+                  with State and Employment Laws/Regulations. Scheduling
+                  (Workforce), Hiring, Promotion and Termination Decisions,
+                  Payroll (Kronos) Management. Managed ~20 team members
+                  (Pharmacy Manager, ASMs and SFLs. Developed employee
+                  performance plans w/ deadlines.
                 </p>
               </div>
             </div>
@@ -56,9 +60,14 @@ const ModalExample = props => {
                 <h3>Assistant Store Manager</h3>
                 <span>2015-2018</span>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis.
+                  Managed ~10-15 team members DHs, CSAs. Communication of
+                  corporate initiatives in one on ones or group meetings daily.
+                  Store Inventory Management, supervised all control of store
+                  money. Participated in company and on-the-job training to
+                  improve skills and productivity and attends training requested
+                  by District Management and corporate. Completed Drug Store
+                  Management training program during specified timeframe(May
+                  2016.)
                 </p>
               </div>
             </div>
@@ -69,9 +78,11 @@ const ModalExample = props => {
                 <h3>Shift Leader</h3>
                 <span>2014-2015</span>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis.
+                  Opened and closed stores, systems start-ups, cash handling,
+                  floor/stockroom cleanliness. Ensured staff trained in all
+                  computer,tech systems and software (e.g. Nextgen registers,
+                  StoreNet, Intercom+, etc.) Ensured response to all systems
+                  problems.
                 </p>
               </div>
             </div>
@@ -82,9 +93,11 @@ const ModalExample = props => {
                 <h3>CSA</h3>
                 <span>2012-2014</span>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis.
+                  Modeled and delivered a distinctive and delightful customer
+                  experience. Performed basic store operations ranging from cash
+                  handling, working stock, resets/revisions, using tools,
+                  applications, and devices to assist and meet all customers
+                  needs.
                 </p>
               </div>
             </div>
