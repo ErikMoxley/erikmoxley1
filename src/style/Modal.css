@@ -20,9 +20,9 @@ h1 span {
 }
 
 .exp-container {
-  width: 80%;
+  width: 100%;
   padding: 0;
-  margin: 50px auto;
+  margin: 0px auto;
   position: relative;
   overflow: hidden;
 }

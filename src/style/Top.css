@@ -50,7 +50,7 @@
   background-clip: text;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  padding: 1rem;
+  padding-left: 1rem;
 }
 .jumbotron {
   min-height: 100vh;

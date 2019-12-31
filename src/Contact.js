@@ -52,6 +52,7 @@ function Contact(props) {
           </div>
           <div class="col-md-6 col-sm-12">
             <ul className="residingIn">
+              &nbsp;&nbsp;
               <FontAwesomeIcon
                 icon={faMapMarkerAlt}
                 className="contact-icons"
@@ -64,6 +65,7 @@ function Contact(props) {
               Boston, MA.)
             </ul>
             <ul className="phoneNum">
+              &nbsp;&nbsp;
               <FontAwesomeIcon
                 icon={faMobileAlt}
                 className="contact-icons"

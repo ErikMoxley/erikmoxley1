@@ -34,7 +34,7 @@ const ModalExample = props => {
             <div class="timeline-block timeline-block-left">
               <div class="timeline-content work-name">
                 <h3>Walgreens Boots Alliance</h3>
-                <span>2012-2019</span>
+                <span>2007-2019</span>
               </div>
             </div>
             <div class="timeline-block timeline-block-right">
@@ -91,7 +91,7 @@ const ModalExample = props => {
               <div class="marker"></div>
               <div class="timeline-content">
                 <h3>CSA</h3>
-                <span>2012-2014</span>
+                <span>2007-2014</span>
                 <p>
                   Modeled and delivered a distinctive and delightful customer
                   experience. Performed basic store operations ranging from cash

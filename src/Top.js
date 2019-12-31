@@ -1,6 +1,6 @@
 import React from "react";
 import { Jumbotron, Container, Button } from "reactstrap";
-import "./style/Home.css";
+import "./style/Top.css";
 import "./dist/Typist.scss";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
@@ -15,13 +15,13 @@ const Top = props => {
             <div className="Typist">
               <Typist className="hero" cursor={{ hideWhenDone: true }}>
                 Hello, my name is
-                <Typist.Delay ms={500} />
+                <Typist.Delay ms={100} />
                 <span className="eMox">
                   Eric K.
                   <Typist.Backspace count={4} delay={1000} />
                   <Typist.Delay ms={750} />k Moxley.
+                  <Typist.Delay ms={6395} />
                 </span>
-                <Typist.Delay ms={1250} />
               </Typist>
             </div>
           </Fade>
@@ -31,9 +31,10 @@ const Top = props => {
                 Former Store Manager.
                 <Typist.Delay ms={1000} />
                 <Typist.Backspace count={21} delay={500} />
-                Aspiring Software Engineer..
+                Aspiring Software Engineer.
                 <Typist.Delay ms={500} />
-                <Typist.Backspace count={19} delay={500} />
+                <Typist.Backspace count={18} delay={500} />
+                <Typist.Delay ms={1000} />
                 Web Developer.
               </Typist>
             </div>
