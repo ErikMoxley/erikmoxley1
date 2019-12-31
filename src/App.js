@@ -1,10 +1,7 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
-import Projects from "./Projects.js";
-import About from "./About.js";
-import Home from "./Home";
-import Contacts from "./Contact";
-import Footer from "./Footer";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Home from "./Home.js";
+import Blog from "./blog/Blog.js";
 import "./style/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -12,12 +9,10 @@ function App() {
   return (
     <BrowserRouter>
       <main>
-        <Home />
-        <About />
-        <Projects />
-        <Contacts />
-        <Footer />
-        {/* <Route path="/home" component={Home} /> */}
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/blog" component={Blog} />
+        </Switch>
       </main>
     </BrowserRouter>
   );

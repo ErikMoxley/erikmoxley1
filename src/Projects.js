@@ -36,19 +36,18 @@ function Projects(props) {
                   </Tilt>
                 </Fade>
                 <Fade left big>
-                  <h3>Github</h3>
+                  <h3>Blog in React</h3>
                   <div>
                     <div>
-                      <p>testing testing testing</p>
-
+                      <p>Work in Progress.</p>
                       <Button
                         color="primary"
                         target="_blank"
                         class="cta-btn cta-btn--hero"
-                        href="https://github.com/ErikMoxley"
+                        href="/blog"
                         rel="noopener noreferrer"
                       >
-                        Github
+                        Blog
                       </Button>
                     </div>
                   </div>
