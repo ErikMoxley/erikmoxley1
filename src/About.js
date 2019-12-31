@@ -4,7 +4,7 @@ import "./style/About.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { Link } from "react-scroll";
-import er from "./assets/er.jpg";
+import er from "./assets/ghprofile.png";
 import ModalExample from "./components/Modal";
 
 function About(props) {

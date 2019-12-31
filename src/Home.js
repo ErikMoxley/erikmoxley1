@@ -49,7 +49,7 @@ const Home = props => {
                 duration={400}
               >
                 <Button color="secondary" size="md">
-                  Find Out More 1
+                  Find Out More
                 </Button>
               </Link>
             </Fade>
