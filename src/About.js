@@ -30,7 +30,7 @@ function About(props) {
               </div>
             </div>
           </Flip>
-          <div class="col-md-6 col-sm-12">
+          <div class="col-md-6 col-sm-12 about-wrapper">
             <Flip top>
               <div class="about-wrapper__info">
                 <p class="about-wrapper__info-text">
