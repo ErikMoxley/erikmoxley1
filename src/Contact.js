@@ -23,6 +23,40 @@ function Contact(props) {
         <p class="contact-message">Sorry for the inconvenience.</p>
         <hr className="contact-hr" />
         <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12 testing123">
+            <ul className="residingIn">
+              &nbsp;&nbsp;
+              <FontAwesomeIcon
+                icon={faMapMarkerAlt}
+                className="contact-icons"
+                color="white"
+                size="2x"
+              />
+              &nbsp; Currently residing in Lowell, MA.
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Located ~35-40 mins from Boston,
+              MA.)
+            </ul>
+            <ul className="phoneNum">
+              &nbsp;&nbsp;
+              <FontAwesomeIcon
+                icon={faMobileAlt}
+                className="contact-icons"
+                color="white"
+                size="2x"
+              />
+              &nbsp; 1 (978) 935-8860
+            </ul>
+            <ul>
+              <FontAwesomeIcon
+                icon={faInbox}
+                className="contact-icons"
+                color="white"
+                size="2x"
+              />
+              &nbsp; VincentErikMoxley@gmail.com
+            </ul>
+          </div>
           <div class="col-md-6 col-sm-12">
             <Form>
               <FormGroup>
@@ -49,40 +83,6 @@ function Contact(props) {
               </FormGroup>
               <Button>Submit</Button>
             </Form>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <ul className="residingIn">
-              &nbsp;&nbsp;
-              <FontAwesomeIcon
-                icon={faMapMarkerAlt}
-                className="contact-icons"
-                color="white"
-                size="2x"
-              />
-              &nbsp; Currently residing in Lowell, MA.
-              <br />
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Located ~35-40 mins from
-              Boston, MA.)
-            </ul>
-            <ul className="phoneNum">
-              &nbsp;&nbsp;
-              <FontAwesomeIcon
-                icon={faMobileAlt}
-                className="contact-icons"
-                color="white"
-                size="2x"
-              />
-              &nbsp; 1 (978) 935-8860
-            </ul>
-            <ul>
-              <FontAwesomeIcon
-                icon={faInbox}
-                className="contact-icons"
-                color="white"
-                size="2x"
-              />
-              &nbsp; VincentErikMoxley@gmail.com
-            </ul>
           </div>
         </div>
       </div>

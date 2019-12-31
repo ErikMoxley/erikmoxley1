@@ -8,7 +8,7 @@
   color: #fff;
 }
 #contact .row {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 .contact-title {
@@ -21,7 +21,7 @@
   text-align: center;
   font-size: 1rem;
   margin-bottom: 2rem;
-  padding-left: 3rem;
+  padding-left: 0rem;
 }
 
 .contact-hr {
@@ -42,10 +42,17 @@
     padding-top: 0rem;
     line-height: 1rem;
   }
-}
-@media screen and (max-width: 768px) {
   .phoneNum {
     padding-top: 0rem;
     line-height: 0rem;
+  }
+}
+
+.testing123 {
+  padding-left: 5rem !important;
+}
+@media screen and (max-width: 70em) {
+  .testing123 {
+    padding-left: 1rem !important;
   }
 }
