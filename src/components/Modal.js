@@ -20,7 +20,7 @@ const ModalExample = props => {
     <div>
       <Form inline onSubmit={e => e.preventDefault()}></Form>
       <Button color="secondary" onClick={toggle}>
-        Test Modal Work Exp
+        Work History
       </Button>
       <Modal
         isOpen={modal}

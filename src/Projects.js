@@ -74,12 +74,12 @@ function Projects(props) {
                   <h3>Wakatime</h3>
                   <div>
                     <div>
-                      <p>https://wakatime.com/dashboard</p>
+                      <p>https://wakatime.com/@erikmoxley</p>
                       <Button
                         color="primary"
                         target="_blank"
                         class="cta-btn cta-btn--hero"
-                        href="https://wakatime.com/dashboard"
+                        href="https://wakatime.com/@erikmoxley"
                         rel="noopener noreferrer"
                       >
                         Wakatime

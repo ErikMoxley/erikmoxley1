@@ -1,6 +1,13 @@
 import React from "react";
 import "./style/Contact.css";
 import Fade from "react-reveal/Fade";
+import { Button, Form, FormGroup, Label, Input } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faMapMarkerAlt,
+  faMobileAlt,
+  faInbox
+} from "@fortawesome/free-solid-svg-icons";
 
 function Contact(props) {
   return (
@@ -9,22 +16,71 @@ function Contact(props) {
         <Fade left big>
           <h3 class="contact-title">Contact</h3>
         </Fade>
+        <p class="contact-message">
+          Feel free to contact me via information or social media in footer as
+          the functions in the forms are still under construction.
+        </p>
+        <p class="contact-message">Sorry for the inconvenience.</p>
+        <hr className="contact-hr" />
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
-            <ul>
-              <ul>Test</ul>
-              <ul>Test</ul>
-            </ul>
+            <Form>
+              <FormGroup>
+                <Label for="exampleName">Name</Label>
+                <Input
+                  type="name"
+                  name="name"
+                  id="exampleName"
+                  placeholder="Name"
+                />
+              </FormGroup>
+              <FormGroup>
+                <Label for="exampleEmail">Email</Label>
+                <Input
+                  type="email"
+                  name="email"
+                  id="exampleEmail"
+                  placeholder="@"
+                />
+              </FormGroup>
+              <FormGroup>
+                <Label for="exampleText">Message</Label>
+                <Input type="textarea" name="text" id="exampleText" />
+              </FormGroup>
+              <Button>Submit</Button>
+            </Form>
           </div>
           <div class="col-md-6 col-sm-12">
-            test Incididunt magna anim aliquip enim occaecat amet elit Lorem do.
-            Consequat eiusmod non ad Lorem excepteur deserunt voluptate officia
-            sint aliqua consequat. Culpa nisi aliqua aute culpa proident magna
-            non reprehenderit deserunt irure sunt nostrud. Nulla sunt sint sunt
-            non Lorem sunt tempor proident excepteur eu duis voluptate id et.
-            Laborum Lorem voluptate quis aliquip elit ut laboris veniam magna
-            sit anim labore ad. Consequat excepteur nisi cillum deserunt. Do qui
-            cupidatat cillum deserunt. (Form will go here)
+            <ul className="residingIn">
+              <FontAwesomeIcon
+                icon={faMapMarkerAlt}
+                className="contact-icons"
+                color="white"
+                size="2x"
+              />
+              &nbsp; Currently residing in Lowell, MA.
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Located ~35-40 mins from
+              Boston, MA.)
+            </ul>
+            <ul className="phoneNum">
+              <FontAwesomeIcon
+                icon={faMobileAlt}
+                className="contact-icons"
+                color="white"
+                size="2x"
+              />
+              &nbsp; 1 (978) 935-8860
+            </ul>
+            <ul>
+              <FontAwesomeIcon
+                icon={faInbox}
+                className="contact-icons"
+                color="white"
+                size="2x"
+              />
+              &nbsp; VincentErikMoxley@gmail.com
+            </ul>
           </div>
         </div>
       </div>

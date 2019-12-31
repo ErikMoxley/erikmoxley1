@@ -4,7 +4,7 @@ import "./style/About.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { Link } from "react-scroll";
-import er from "./assets/ghprofile.png";
+import er from "./assets/er.jpg";
 import ModalExample from "./components/Modal";
 
 function About(props) {
@@ -23,7 +23,7 @@ function About(props) {
                 <img
                   className="er"
                   height="auto"
-                  width="300px"
+                  width="250px"
                   src={er}
                   alt=""
                 />
@@ -48,6 +48,8 @@ function About(props) {
                   itaque molestiae.
                 </p>
                 <span class="d-flex mt-3">
+                  <ModalExample />
+                  &nbsp; &nbsp; &nbsp;
                   <Button
                     color="secondary"
                     size="small"
@@ -56,8 +58,6 @@ function About(props) {
                   >
                     View LinkedIn
                   </Button>
-                  &nbsp; &nbsp; &nbsp;
-                  <ModalExample />
                   &nbsp; &nbsp; &nbsp;
                   <Link
                     activeClass="active"
@@ -68,7 +68,7 @@ function About(props) {
                     duration={400}
                   >
                     <Button color="secondary" size="small">
-                      Social Media
+                      Contact
                     </Button>
                   </Link>
                 </span>

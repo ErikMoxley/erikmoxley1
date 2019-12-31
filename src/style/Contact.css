@@ -4,12 +4,48 @@
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   padding: 6rem 0 10rem;
   margin-top: 3rem;
-  margin-bottom: -24px;
+  margin-bottom: -25px;
   color: #fff;
+}
+#contact .row {
+  padding-left: 2rem;
 }
 
 .contact-title {
   text-align: center;
   font-size: 4rem;
   margin-bottom: 0rem;
+}
+
+.contact-message {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+}
+
+.contact-hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #75757500, #353535bf, #75757500);
+}
+
+.residingIn {
+  padding-top: 2rem;
+  line-height: 1rem;
+}
+.phoneNum {
+  line-height: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .residingIn {
+    padding-top: 0rem;
+    line-height: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .phoneNum {
+    padding-top: 0rem;
+    line-height: 0rem;
+  }
 }

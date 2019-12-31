@@ -29,7 +29,7 @@ const Home = props => {
             <div className="Typist">
               <Typist className="hero" cursor={{ hideWhenDone: true }}>
                 Former Store Manager.
-                <Typist.Delay ms={5000} />
+                <Typist.Delay ms={1000} />
                 <Typist.Backspace count={21} delay={500} />
                 Aspiring Software Engineer..
                 <Typist.Delay ms={500} />
