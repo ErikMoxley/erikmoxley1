@@ -42,7 +42,6 @@ function Projects(props) {
                       <p>Work in Progress.</p>
                       <Button
                         color="primary"
-                        target="_blank"
                         class="cta-btn cta-btn--hero"
                         href="/blog"
                         rel="noopener noreferrer"
