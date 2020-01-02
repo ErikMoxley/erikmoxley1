@@ -36,14 +36,14 @@ function Projects(props) {
                   </Tilt>
                 </Fade>
                 <Fade left big>
-                  <h3>Blog in React</h3>
+                  <h3>Gatsby Blog</h3>
                   <div>
                     <div>
                       <p>Work in Progress.</p>
                       <Button
                         color="primary"
                         class="cta-btn cta-btn--hero"
-                        href="/blog"
+                        href="https://distracted-raman-c9a6c1.netlify.com/"
                         rel="noopener noreferrer"
                       >
                         Blog

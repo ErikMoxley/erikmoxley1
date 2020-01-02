@@ -2,7 +2,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home.js";
-// import Blog from "./blog/Blog.js";
+// import IndexPage from "../blog/src/pages/index";
 import "./style/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -12,7 +12,7 @@ function App() {
       <main>
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route exact path="/blog" component={Blog} /> */}
+          {/* <Route exact path="/blog" component={IndexPage} /> */}
         </Switch>
       </main>
     </BrowserRouter>
