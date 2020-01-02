@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/Contact.css";
+import "../style/Contact.css";
 import Fade from "react-reveal/Fade";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -56,6 +56,7 @@ function Contact(props) {
               />
               &nbsp; VincentErikMoxley@gmail.com
             </ul>
+            <hr className="contact-hr" />
           </div>
           <div class="col-md-6 col-sm-12">
             <Form>

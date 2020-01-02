@@ -1,10 +1,11 @@
+// second layer
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
-import Projects from "./Projects.js";
-import About from "./About.js";
-import Top from "./Top";
-import Contacts from "./Contact";
-import Footer from "./Footer";
+import Projects from "./sections/Projects.js";
+import About from "./sections/About.js";
+import Top from "./sections/Top";
+import Contacts from "./sections/Contact";
+import Footer from "./components/Footer";
 import "./style/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 

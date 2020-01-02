@@ -1,11 +1,11 @@
 import React from "react";
 import { Button } from "reactstrap";
-import "./style/About.css";
+import "../style/About.css";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
 import { Link } from "react-scroll";
-import er from "./assets/er.jpg";
-import ModalExample from "./components/Modal";
+import er from "../assets/er.jpg";
+import ModalExample from "../components/Modal";
 
 function About(props) {
   return (

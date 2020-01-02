@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/Footer.css";
+import "../style/Footer.css";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

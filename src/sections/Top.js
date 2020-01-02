@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron, Container, Button } from "reactstrap";
-import "./style/Top.css";
-import "./dist/Typist.scss";
+import "../style/Top.css";
+import "../dist/Typist.scss";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 import Typist from "react-typist";
