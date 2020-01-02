@@ -2,6 +2,11 @@
   background-color: #fff;
   color: #389fc5;
 }
+@media screen and (max-width: 768px) {
+  #projects {
+    text-align: center;
+  }
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -30,4 +35,8 @@
   text-align: center;
   font-size: 4rem;
   margin-bottom: 3rem;
+}
+
+.col-xl-4 {
+  padding-bottom: 2rem;
 }

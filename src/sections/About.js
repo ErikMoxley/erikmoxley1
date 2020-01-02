@@ -37,15 +37,16 @@ function About(props) {
                   Hello! My name is Erik and I'm from Massachusetts. Thank you
                   for joining me as I learn and work towards becoming a
                   developer in the near future and hopefully an engineer later
-                  on. My resume is filled with years of Management/Leadership
-                  experience. I've always been highly passionate in technology,
-                  gaming, fantasy sports and helping people. In my free time, I
-                  enjoy watching MLB and NFL as well as some E-sports and gaming
-                  on Twitch. I have a subscription with AMC's A-List and enjoy
-                  watching a lot of movies that come out in theaters with my
-                  girlfriend. We also enjoy going to theme parks and plan to
-                  travel overseas more as we started with visiting Japan in
-                  2019.
+                  on. My resume is filled with years of management and
+                  leadership experience in a Pharmacy and Retail setting. I've
+                  always been highly passionate in technology, gaming, fantasy
+                  sports, dining out, and helping people. I also enjoy having a
+                  subscription with AMC's A-List and watch a lot of movies that
+                  come out in theaters with my girlfriend. We enjoy going to
+                  theme parks and plan to travel overseas more as we have
+                  started with visiting Japan in 2019. A lot of my interests
+                  will be on display in my blog's content once I'm finished
+                  creating it via GatsbyJS.
                 </p>
                 <p class="about-wrapper__info-text">
                   Growing up, I've always been good with troubleshooting, IT, PC
@@ -61,14 +62,14 @@ function About(props) {
                 </p>
                 <p class="about-wrapper__info-text">
                   I plan to continue to learn all aspects of full stack web
-                  developing and branch out towards whichever direction
-                  intrigues me most. Some of the
-                  technologies/languages/frameworks/websites I've worked with so
-                  far include HTML5, CSS3, Sass, JS, Jquery, Bootstrap4,
-                  Netlify, Github as well as React and all it's different tools
-                  provided with NPM. I've touched a bit upon backend basics, but
-                  have been exposed to Mongodb, Nodejs, and PostgreSQL. Feel
-                  free to ask any questions as I'm very open to sharing almost
+                  development and branch out towards whichever direction
+                  intrigues me most. Some of the technologies, languages,
+                  frameworks, and websites I've worked with so far include
+                  HTML5, CSS3, Sass, JS, Jquery, Bootstrap4, Netlify, Github as
+                  well as ReactJS, GatsbyJS and all it's different tools
+                  provided. I've touched a bit upon backend basics, but have
+                  been exposed to Mongodb, Nodejs, and PostgreSQL. Feel free to
+                  ask any questions as I'm very open to sharing almost
                   everything about myself and what I'm doing. Thank you, and
                   enjoy.
                 </p>

@@ -41,46 +41,22 @@ function Projects(props) {
                     <div>
                       <p>Work in Progress.</p>
                       <Button
-                        color="primary"
+                        color="secondary"
                         class="cta-btn cta-btn--hero"
                         href="https://distracted-raman-c9a6c1.netlify.com/"
                         rel="noopener noreferrer"
                       >
-                        Blog
+                        Blog Site
                       </Button>
-                    </div>
-                  </div>
-                </Fade>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-4">
-            <div>
-              <div>
-                <Fade bottom>
-                  <Tilt
-                    className="Tilt"
-                    options={{ max: 20 }}
-                    style={{ height: 275, width: 275 }}
-                  >
-                    <div className="Tilt">
-                      <img src={wk} width="250" height="250" alt="" />
-                    </div>
-                  </Tilt>
-                </Fade>
-                <Fade bottom>
-                  <h3>Wakatime</h3>
-                  <div>
-                    <div>
-                      <p>https://wakatime.com/@erikmoxley</p>
+                      &nbsp;&nbsp;&nbsp;
                       <Button
-                        color="primary"
+                        color="secondary"
                         target="_blank"
                         class="cta-btn cta-btn--hero"
-                        href="https://wakatime.com/@erikmoxley"
+                        href="https://github.com/ErikMoxley/gatsby-blog"
                         rel="noopener noreferrer"
                       >
-                        Wakatime
+                        Code
                       </Button>
                     </div>
                   </div>
@@ -102,19 +78,53 @@ function Projects(props) {
                     </div>
                   </Tilt>
                 </Fade>
-                <Fade right big>
-                  <h3>Github</h3>
+                <Fade bottom>
+                  <h3>Some API</h3>
                   <div>
                     <div>
-                      <p>testing testing testing</p>
+                      <p>Content coming soon. For now, check out my GitHub.</p>
                       <Button
-                        color="primary"
+                        color="secondary"
                         target="_blank"
                         class="cta-btn cta-btn--hero"
                         href="https://github.com/ErikMoxley"
                         rel="noopener noreferrer"
                       >
-                        Github
+                        GitHub
+                      </Button>
+                    </div>
+                  </div>
+                </Fade>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4">
+            <div>
+              <div>
+                <Fade bottom>
+                  <Tilt
+                    className="Tilt"
+                    options={{ max: 20 }}
+                    style={{ height: 275, width: 275 }}
+                  >
+                    <div className="Tilt">
+                      <img src={wk} width="250" height="250" alt="" />
+                    </div>
+                  </Tilt>
+                </Fade>
+                <Fade right big>
+                  <h3>Wakatime</h3>
+                  <div>
+                    <div>
+                      <p>https://wakatime.com/@erikmoxley</p>
+                      <Button
+                        color="secondary"
+                        target="_blank"
+                        class="cta-btn cta-btn--hero"
+                        href="https://wakatime.com/@erikmoxley"
+                        rel="noopener noreferrer"
+                      >
+                        Profile
                       </Button>
                     </div>
                   </div>
