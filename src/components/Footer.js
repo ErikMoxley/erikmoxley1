@@ -93,7 +93,12 @@ const Footer = () => {
                   Projects
                 </Link>
               </ul>
-              <ul>Blog (Coming Soon!)</ul>
+              <a
+                href="https://distracted-raman-c9a6c1.netlify.com/"
+                rel="noopener noreferrer"
+              >
+                Blog (Under Construction!)
+              </a>
             </ul>
           </MDBCol>
           <MDBCol className="footer-social" md="3">

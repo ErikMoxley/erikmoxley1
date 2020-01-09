@@ -14,13 +14,13 @@ const Top = props => {
           <Fade left>
             <div className="Typist">
               <Typist className="hero" cursor={{ hideWhenDone: true }}>
-                Hello, my name is
+                Hello, I'm
                 <Typist.Delay ms={100} />
                 <span className="eMox">
                   Eric K.
                   <Typist.Backspace count={4} delay={1000} />
                   <Typist.Delay ms={750} />k Moxley.
-                  <Typist.Delay ms={6395} />
+                  <Typist.Delay ms={6590} />
                 </span>
               </Typist>
             </div>

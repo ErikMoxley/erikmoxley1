@@ -80,7 +80,7 @@ function Contact(props) {
               </FormGroup>
               <FormGroup>
                 <Label for="exampleText">Message</Label>
-                <Input type="textarea" name="text" id="exampleText" />
+                <Input type="textarea" name="text" id="exampleText" placeholder="Future site of a form that will work nodemailer."/>
               </FormGroup>
               <Button>Submit</Button>
             </Form>

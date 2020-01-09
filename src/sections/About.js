@@ -106,5 +106,4 @@ function About(props) {
     </section>
   );
 }
-
 export default About;
