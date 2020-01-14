@@ -35,32 +35,6 @@ function Projects(props) {
                     </div>
                   </Tilt>
                 </Fade>
-                <Fade left big>
-                  <h3>Gatsby Blog</h3>
-                  <div>
-                    <div>
-                      <p>Work in Progress.</p>
-                      <Button
-                        color="secondary"
-                        class="cta-btn cta-btn--hero"
-                        href="https://distracted-raman-c9a6c1.netlify.com/"
-                        rel="noopener noreferrer"
-                      >
-                        Blog Site
-                      </Button>
-                      &nbsp;&nbsp;&nbsp;
-                      <Button
-                        color="secondary"
-                        target="_blank"
-                        class="cta-btn cta-btn--hero"
-                        href="https://github.com/ErikMoxley/gatsby-blog"
-                        rel="noopener noreferrer"
-                      >
-                        Code
-                      </Button>
-                    </div>
-                  </div>
-                </Fade>
               </div>
             </div>
           </div>
