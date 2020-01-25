@@ -14,7 +14,7 @@ const Top = props => {
           <Fade left>
             <div className="Typist">
               <Typist className="hero" cursor={{ hideWhenDone: true }}>
-                Hello, I'm
+                HELLO, I'm
                 <Typist.Delay ms={100} />
                 <span className="eMox">
                   Eric K.
