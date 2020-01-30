@@ -45,7 +45,7 @@ function Contact(props) {
                 color="white"
                 size="2x"
               />
-              &nbsp; 1 (978) 935-8860
+              &nbsp;Call
             </ul>
             <ul>
               <FontAwesomeIcon
@@ -80,7 +80,12 @@ function Contact(props) {
               </FormGroup>
               <FormGroup>
                 <Label for="exampleText">Message</Label>
-                <Input type="textarea" name="text" id="exampleText" placeholder="Future site of a form that will work nodemailer."/>
+                <Input
+                  type="textarea"
+                  name="text"
+                  id="exampleText"
+                  placeholder="Future site of a form that will work nodemailer."
+                />
               </FormGroup>
               <Button>Submit</Button>
             </Form>
