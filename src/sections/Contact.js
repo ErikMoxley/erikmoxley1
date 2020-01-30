@@ -54,7 +54,7 @@ function Contact(props) {
                 color="white"
                 size="2x"
               />
-              &nbsp; VincentErikMoxley@gmail.com
+              &nbsp; Email
             </ul>
             <hr className="contact-hr" />
           </div>
