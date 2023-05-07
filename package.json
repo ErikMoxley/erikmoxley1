@@ -15,7 +15,7 @@
     "@trendmicro/react-sidenav": "^0.4.5",
     "bootstrap": "^4.4.1",
     "framer-motion": "^1.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mdbreact": "^4.24.0",
     "muicss": "^0.10.0",
     "node-sass": "^4.13.0",
